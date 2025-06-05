@@ -1,4 +1,5 @@
 const Article = require('../models/Article');
+const mockArticles = require('../models/mockArticles');
 
 exports.createArticle = async (req, res) => {
   const { title, content, tags, coverImage } = req.body;
@@ -15,8 +16,7 @@ exports.createArticle = async (req, res) => {
 };
 
 exports.getAllArticles = async (req, res) => {
-  const articles = await Article.find().populate('author', 'username');
-  res.json(articles);
+res.json(mockArticles); // Utilisation des articles mockés pour le moment
 };
 
 exports.getArticleById = async (req, res) => {
