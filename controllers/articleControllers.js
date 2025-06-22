@@ -16,7 +16,8 @@ exports.createArticle = async (req, res) => {
 };
 
 exports.getAllArticles = async (req, res) => {
-res.json(mockArticles); // Utilisation des articles mockés pour le moment
+  const articles = await Article.find();
+  res.json(articles);
 };
 
 exports.getArticleById = async (req, res) => {

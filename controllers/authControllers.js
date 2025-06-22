@@ -33,3 +33,9 @@ exports.login = async (req, res) => {
 
   res.json({ token, user: { id: user._id, username: user.username } });
 };
+
+exports.getProfile = async (req, res) => {
+  const user = await User.findById(req.user.id).select('-password');
+  if (!user) return res.status(404).json({ msg: 'Utilisateur non trouvé' });
+  res.json(user);
+};
