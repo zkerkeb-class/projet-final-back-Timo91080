@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "6857f1cae205e363d1bca56c"
+  },
+  "title": "Ligue 1 : L'OM accroche la deuxième place",
+  "content": "L'Olympique de Marseille termine la saison à la deuxième place du championnat.",
+  "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThtpVBdBvz-Gq8bcZdauRMGTRVNitLwm4A0g&s",
+  "tags": [],
+  "views": 0,
+  "author": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-22T12:06:34.698Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-22T12:06:34.698Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6857f1cae205e363d1bca56d"
+  },
+  "title": "Mercato : Les transferts chauds de l'été",
+  "content": "Découvrez les principaux transferts attendus lors du mercato estival 2025.",
+  "coverImage": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1920,h_1080,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/90min_fr_international_web/01frb48588fpy8c5jzwv.png",
+  "tags": [],
+  "views": 0,
+  "author": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-22T12:06:34.700Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-22T12:06:34.700Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6857f1cae205e363d1bca56e"
+  },
+  "title": "Premier League : Manchester City sacré champion",
+  "content": "Manchester City remporte la Premier League après une lutte acharnée avec Liverpool.",
+  "coverImage": "https://letemps-17455.kxcdn.com/photos/9fba183a-07be-4f25-a127-98f671424899/small",
+  "tags": [],
+  "views": 0,
+  "author": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-22T12:06:34.700Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-22T12:06:34.700Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6857f1cae205e363d1bca56f"
+  },
+  "title": "Ligue 1 : le PSG champion",
+  "content": "Le PSG remporte un nouveau titre de Ligue 1 après une saison exceptionnelle. Grâce à une série impressionnante de victoires et une attaque redoutable menée par Mbappé, le club parisien a dominé le championnat. Les supporters ont célébré ce titre historique au Parc des Princes, marquant la suprématie du PSG sur la scène nationale.",
+  "coverImage": "https://img.lemde.fr/2025/04/05/0/0/3705/2470/556/0/75/0/ca36179_ftp-import-images-1-svms9upgqrhq-5529759-01-06.jpg",
+  "tags": [],
+  "views": 0,
+  "author": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-22T12:06:34.700Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-22T12:06:34.700Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6857f1cae205e363d1bca570"
+  },
+  "title": "Mercato : Mbappé vers le Real Madrid ?",
+  "content": "Kylian Mbappé serait tout proche de rejoindre le Real Madrid selon plusieurs sources espagnoles.",
+  "coverImage": "https://s.france24.com/media/display/b0bb4218-d93a-11ec-907e-005056bfb2b6/w:1280/p:16x9/000_32AP7TN.jpg",
+  "tags": [],
+  "views": 0,
+  "author": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-22T12:06:34.700Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-22T12:06:34.700Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6857f1cae205e363d1bca571"
+  },
+  "title": "Euro 2024 : L'Allemagne impressionne en ouverture",
+  "content": "L'Allemagne a dominé le match d'ouverture de l'Euro 2024 avec une victoire éclatante.",
+  "coverImage": "https://images.rtl.fr/~c/1200v800/rtl/www/1683138-toni-kroos-et-thomas-muller-avec-l-allemagne-a-munich-le-14-juin-2024.jpg",
+  "tags": [],
+  "views": 0,
+  "author": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-22T12:06:34.700Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-22T12:06:34.700Z"
+  }
+}]

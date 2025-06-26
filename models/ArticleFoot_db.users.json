@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "68570e21232cb4805a2cabe6"
+  },
+  "username": "toto",
+  "email": "toto@toto.com",
+  "password": "$2b$10$0WvWTnL6aWQuELn.fINdQ.l288QxXuZ/BNXG6jckNI8XkIPo/OA5y",
+  "avatar": "",
+  "createdAt": {
+    "$date": "2025-06-21T19:55:13.945Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-21T19:55:13.945Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68570f4b232cb4805a2cabeb"
+  },
+  "username": "tota",
+  "email": "tota@tota.com",
+  "password": "$2b$10$f9S.bAzxtfFxxValJKj8CepzOwVloIEDyTdHaWD3.E0KCLjK.yBsm",
+  "avatar": "",
+  "createdAt": {
+    "$date": "2025-06-21T20:00:11.605Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-22T12:37:24.335Z"
+  },
+  "__v": 1,
+  "favorites": [
+    "https://www.franceinfo.fr/euro/euro-2024-pays-hote-l-allemagne-ecrase-l-ecosse-en-match-d-ouverture-et-debute-parfaitement-sa-competition_6604614.html"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6857dfa622d3095e92064dac"
+  },
+  "username": "nox",
+  "email": "nox@nox.com",
+  "password": "$2b$10$1kJYXSQG5hxsHKIHDmWKDeB/vrzN1XaOo/8nR8LH8KOseteFT9n3y",
+  "avatar": "",
+  "createdAt": {
+    "$date": "2025-06-22T10:49:10.511Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-22T10:49:10.511Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6857f96453ca0038b9fa9ba7"
+  },
+  "username": "titi",
+  "email": "titi@titi.com",
+  "password": "$2b$10$ZmKKUHn188SXAn3lNKkNy.BYq8EbzmiMVwXS331oR9CSUxsDuQ2kS",
+  "avatar": "",
+  "favorites": [],
+  "createdAt": {
+    "$date": "2025-06-22T12:39:00.110Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-22T12:39:42.081Z"
+  },
+  "__v": 12
+}]

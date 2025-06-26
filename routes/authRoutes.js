@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { register, login, updateProfile, updatePassword, deleteAccount, addFavorite, removeFavorite } = require('../controllers/authControllers');
+const { register, login, updateProfile, updatePassword, deleteAccount, addFavorite, removeFavorite, getMockArticles } = require('../controllers/authControllers');
 const auth = require('../middleware/authMiddleware');
 
 router.post('/register', register);
@@ -16,5 +16,6 @@ router.put('/me/password', auth, updatePassword);
 router.delete('/delete', auth, deleteAccount);
 router.post('/favorites/add', auth, addFavorite);
 router.post('/favorites/remove', auth, removeFavorite);
+router.get('/articles/mock', getMockArticles);
 
 module.exports = router;

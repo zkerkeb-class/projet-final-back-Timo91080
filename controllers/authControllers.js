@@ -2,7 +2,6 @@ const User = require('../models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
-
 exports.register = async (req, res) => {
   const { username, email, password } = req.body;
 
@@ -102,5 +101,25 @@ exports.removeFavorite = async (req, res) => {
     res.json({ favorites: user.favorites });
   } catch {
     res.status(500).json({ msg: "Erreur lors du retrait des favoris" });
+  }
+};
+
+// NOUVEAU : Contrôleur pour les articles avec filtrage par langue
+exports.getMockArticles = (req, res) => {
+  try {
+    const mockArticles = require('../models/mockArticles');
+    const { lang } = req.query;
+    
+    let filteredArticles = mockArticles;
+    
+    // Filtrer par langue si spécifiée
+    if (lang) {
+      filteredArticles = mockArticles.filter(article => article.lang === lang);
+    }
+    
+    res.json(filteredArticles);
+  } catch (error) {
+    console.error('Erreur lors de la récupération des articles:', error);
+    res.status(500).json({ msg: 'Erreur serveur' });
   }
 };
